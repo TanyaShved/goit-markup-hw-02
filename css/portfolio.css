@@ -1,4 +1,4 @@
-.filter {
+.button-nav .filter {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 
@@ -6,6 +6,12 @@
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+
+.button-nav .filter:hover,
+.button-nav .filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .filter-current {
